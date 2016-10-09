@@ -1,0 +1,5 @@
+.DS_Store
+knexfile.js
+src/global_config.js
+node_modules
+npm-debug.log

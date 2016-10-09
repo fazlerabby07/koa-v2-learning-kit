@@ -1,0 +1,33 @@
+/****** package.json ******/
+  - upgrade these:
+    - "koa": "^2.0.0-alpha.3"
+    - "koa-router": "^7.0.0",
+    - "koa-bodyparser": "^3.0.0"
+    - "kcors": "^2.0.0"
+
+  - Add these:
+    - "koa-convert": "^1.2.0"
+    - "koa-jwt": "^1.1.2"
+    - "koa-multer": "^1.0.0"
+
+  - Delete folder: node_modules
+
+  - Run: npm install
+
+
+
+/****** src/server.js ******/
+  - Add following line BETWEEN publicRoute and secureRoute
+    app.use(convert(jwt({ secret: 'FazleMagirSecretPorn' })));
+
+
+
+/****** INSIDE ALL CONTROLLERS ******/
+  1. function*()      >>>>     async function(ctx)
+  2. yield            >>>>     await
+  3. this.params.id;    >>>>    ctx.params.id;
+  4. [this.status, this.body]    >>>>   [ctx.status, ctx.body]
+
+
+Migration changes?
+Seed changes?
