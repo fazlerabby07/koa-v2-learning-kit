@@ -15,7 +15,7 @@ const globalConfig = {
         host: 'localhost',
         user: 'root',
         password: '',
-        database: 'newselo_v1',
+        database: 'database_name',
         charset: 'utf8',
         debug: true
     },
