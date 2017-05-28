@@ -5,7 +5,7 @@ module.exports = {
   development: {
     client: 'mysql',
     connection: {
-      database: 'newselo_v1',
+      database: 'database_name',
       user: 'root',
       password: ''
     },
@@ -24,7 +24,7 @@ module.exports = {
   staging: {
     client: 'mysql',
     connection: {
-      database: 'newselo_v1',
+      database: 'database_name',
       user: 'root',
       password: ''
     },
@@ -40,7 +40,7 @@ module.exports = {
   production: {
     client: 'mysql',
     connection: {
-      database: 'newselo_v1',
+      database: 'database_name',
       user: 'root',
       password: ''
     },
