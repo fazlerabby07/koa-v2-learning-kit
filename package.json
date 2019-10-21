@@ -18,7 +18,7 @@
     "checkit": "^0.6.0",
     "co-body": "^4.0.0",
     "kcors": "^2.0.0",
-    "knex": "^0.8.6",
+    "knex": "^0.19.5",
     "koa": "^2.0.0-alpha.3",
     "koa-bodyparser": "^3.0.0",
     "koa-convert": "^1.2.0",
